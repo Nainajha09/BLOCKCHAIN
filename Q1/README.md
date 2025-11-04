@@ -107,31 +107,7 @@ await supplyChain.connect(distributor).receiveShipment(1);
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](./LICENSE) file for details.
-## 🔒 Security & Integrity
-
-- **Role-Based Access Control** – Each participant has defined permissions.  
-- **Verified State Transitions** – Ensures only valid shipment flows occur.  
-- **Immutable Blockchain Logs** – Every transaction is permanently recorded.  
-- **Protection Against Attacks** – Prevents double transfers and unauthorized shipments.  
-
-
-## 🧱 Tech Stack
-
-| **Layer**              | **Technology**                     |
-|-------------------------|------------------------------------|
-| 🧩 Smart Contracts       | Solidity                           |
-| 🧰 Framework             | Hardhat                            |
-| 🌐 Network               | Ethereum (Local / Testnet)         |
-| 🧪 Testing Framework     | Mocha + Chai                       |
-| 🔗 Optional Extension    | Hyperledger Fabric Integration     |
-
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.
-
-
+## 🔒 Security
 
 
 
