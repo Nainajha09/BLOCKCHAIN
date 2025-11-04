@@ -16,7 +16,12 @@ This project ensures **transparency, traceability, and trust** across manufactur
 ---
 
 ## 🧩 Architecture
+<p align="center">
+  <b>Participants Flow:</b><br>
+  👷 Manufacturer → 🚚 Distributor → 🏪 Retailer
+</p>
 
-Manufacturer → Distributor → Retailer
-│ │ │
-Create → Ship → Receive → Deliver
+<p align="center">
+  <b>Process Lifecycle:</b><br>
+  ⚙️ Create → 🚢 Ship → 📦 Receive → ✅ Deliver
+</p>
