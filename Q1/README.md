@@ -25,3 +25,20 @@ This project ensures **transparency, traceability, and trust** across manufactur
   <b>Process Lifecycle:</b><br>
   ⚙️ Create → 🚢 Ship → 📦 Receive → ✅ Deliver
 </p>
+
+
+
+Each step is verified on-chain, preventing data tampering or unauthorized access.
+
+---
+
+## ⚙️ Setup & Deployment
+
+### Prerequisites
+- Node.js (v16+)
+- npm / yarn
+- Hardhat
+
+### Installation
+```bash
+npm install
