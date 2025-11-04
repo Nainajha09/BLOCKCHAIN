@@ -43,18 +43,49 @@ Each step is verified on-chain, preventing data tampering or unauthorized access
 ```bash
 npm install
 
-Compile Contracts
+```
+### Compile Contracts
+```bash
 npx hardhat compile
 
-Run Tests
+
+```
+### Run Tests
+```bash
 npx hardhat test
 
-Deploy Locally
+
+```
+### Deploy Locally
+```bash
 # Terminal 1
 npx hardhat node
 
 # Terminal 2
 npx hardhat run scripts/deploy.js --network localhost
+
+
+```
+### 🧠 Example Usage
+```javascript
+// Register participants
+await supplyChain.registerParticipant(admin, "ABC Manufacturing", 1);
+await supplyChain.registerParticipant(distributor, "XYZ Distributors", 2);
+await supplyChain.registerParticipant(retailer, "RetailCo", 3);
+
+// Manufacturer creates and ships product
+await supplyChain.connect(manufacturer).createProduct("Widget A");
+await supplyChain.connect(manufacturer).createShipment(1, distributor.address);
+await supplyChain.connect(manufacturer).transferShipment(1);
+
+// Distributor receives shipment
+await supplyChain.connect(distributor).receiveShipment(1);
+
+
+```
+
+
+
 
 
 
