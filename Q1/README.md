@@ -42,3 +42,19 @@ Each step is verified on-chain, preventing data tampering or unauthorized access
 ### Installation
 ```bash
 npm install
+
+Compile Contracts
+npx hardhat compile
+
+Run Tests
+npx hardhat test
+
+Deploy Locally
+# Terminal 1
+npx hardhat node
+
+# Terminal 2
+npx hardhat run scripts/deploy.js --network localhost
+
+
+
